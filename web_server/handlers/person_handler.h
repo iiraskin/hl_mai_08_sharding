@@ -138,7 +138,7 @@ public:
                 }
                 catch (...)
                 {
-                    ostr << "{ \"result\": false , \"reason\": \"not gound\" }";
+                    ostr << "{ \"result\": false , \"reason\": \"not found\" }";
                     return;
                 }
                 return;
